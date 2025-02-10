@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Tareas</title>
+    <link rel="stylesheet" href="MiniP.css">
+</head>
+<body>
+
+<div id="contendor">
+
+    <header>
+        <h2>Gestor de Tareas</h2>
+        <button id="reset"><img src="img/reset.png" alt=""></button>
+    </header>
+
+    <main id="main">
+        <div id="aside">
+            <label for="tareaInput">Nueva tarea:</label>
+            <input type="text" id="tareaInput" placeholder="Escribe una tarea..."><br>
+
+            <label for="estado">Selecciona el estado:</label>
+            <select id="estado">
+                <option value="pendiente">Pendiente</option>
+                <option value="completada">Completada</option>
+            </select>
+            <button id="btnAgregar">Agregar tarea</button>
+
+            <hr>
+
+            <label for="Filtro">Filtrar tareas:</label>
+            <select id="Filtro">
+                <option value="todas">Todas</option>
+                <option value="pendiente">Pendientes</option>
+                <option value="completada">Completadas</option>
+                <option value="desactivadas">Desactivadas</option>
+            </select>
+            
+        </div>
+
+        <div id="contTareas">
+
+        </div>
+    </main>
+
+    <div id="contEditar">
+        <h2>Editar Tarea</h2>
+        <input type="text" id="h1Editar" placeholder="Editar tarea...">
+        <button id="x">Cerrar</button>
+    </div>
+
+    <div id="tareasDesactivadas">
+        
+    </div>
+
+    <script src="MiniProyecto.js"></script>
+</div>
+</body>
+</html>
