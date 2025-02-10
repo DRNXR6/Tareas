@@ -218,6 +218,13 @@ h1 {
     border: none;
 }
 
+#powerR {
+    position: relative;
+    top: 5px;
+    background-color: transparent;
+    border: none;
+}
+
 #power:hover {
     transform: scale(1.4);
 }
