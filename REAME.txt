@@ -1,0 +1,37 @@
+README Gestión de Tareas
+
+Descripción:
+Este proyecto es una aplicación web simple de gestión de tareas. Permite agregar tareas pendientes o completadas, editarlas, eliminarlas y filtrarlas por estado (pendientes, completadas, desactivadas o todas). Además, tiene la capacidad de desactivar tareas, las cuales se pueden reactivar posteriormente.
+
+Características:
+1.Agregar Tarea:
+   Los usuarios pueden escribir una nueva tarea y asignarle un estado (Pendiente o Completada).
+   Las tareas se guardan en el almacenamiento local (localStorage) para mantenerlas entre sesiones.
+
+2.Filtrar Tarea:
+   Se pueden filtrar las tareas según el estado (Pendientes, Completadas, Desactivadas o Todas).
+   Al seleccionar una opción de filtro, solo se mostrarán las tareas que coincidan con el estado elegido.
+
+3.Editar Tarea:
+   Los usuarios pueden editar el texto y el estado de una tarea existente.
+   El estado de la tarea puede cambiar entre pendiente y completada.
+
+4.Eliminar Tarea:
+   Las tareas pueden eliminarse, y se solicita confirmación antes de realizar la eliminación.
+
+5.Desactivar Tarea:
+   Las tareas pueden ser desactivadas, lo que las mueve a una sección de tareas desactivadas.
+   Estas tareas desactivadas pueden reactivarse en cualquier momento, cambiando su estado a pendiente.
+
+6.Reiniciar Tod:
+   Existe una opción para borrar todas las tareas almacenadas (pendientes, completadas, desactivadas) y reiniciar la aplicación desde cero.
+
+
+Uso:
+   Al ingresar a la página, se puede escribir una tarea en el campo "Nueva tarea", seleccionar el estado (pendiente/completada) y presionar "Agregar tarea".
+   Las tareas agregadas se mostrarán en la lista correspondiente según su estado.
+   Los usuarios pueden editar, eliminar o desactivar tareas.
+   Las tareas se pueden filtrar según el estado seleccionado en el menú de filtro.
+   El botón de "Resetear" permite borrar todas las tareas almacenadas.
+
+https://trello.com/b/3ykxkAbS/miniproyectojs
